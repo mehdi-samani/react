@@ -1,0 +1,45 @@
+body{
+    font-family: yekan;
+}
+
+.container-fluid{
+    max-width: 1220px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+#head-tools{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     
+}
+
+#head-tools ul{
+
+    margin-bottom: 10px;
+}
+
+#head-tools ul a{
+color: #777
+
+}
+
+#head-tools ul a:hover{
+    color: red
+}
+
+#head-tools ul i{
+
+    margin-left: 8px;
+}
+
+#head-tools ul li .badge{
+    position: relative;
+    right: -18px;
+    top: -10px;
+    font-size: 14px;
+}

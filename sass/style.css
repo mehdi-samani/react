@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "head";
+  src: url("../IRANSans4/IRANSans4/IRANSans_Medium.ttf");
+}
+
+@font-face {
+  font-family: "p1";
+  src: url("../IRANSans4/IRANSans4/IRANSans_Medium.ttf");
+}
+
+@font-face {
+  font-family: "p3";
+  src: url("../IRANSans4/IRANSans4/IRANSans_Light.ttf");
+}
+
+body {
+  direction: rtl;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'head';
+  text-align: right;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'p3';
+  font-size: 14px;
+}
+
+small {
+  font-family: 'p3';
+  font-size: 14px;
+  text-align: right;
+  float: right;
+  color: rgba(68, 68, 68, 0.5);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.new {
+  width: 100%;
+  float: right;
+}
+
+.new .new-log {
+  background-color: #533d55;
+  width: 25%;
+  text-align: center;
+  padding: 1px 6px 1px 6px;
+  border-radius: 20px;
+  font-family: 'p3';
+  color: #fff;
+  margin-right: -2px;
+  float: right;
+}
+
+.new .price {
+  width: 70%;
+  float: left;
+  padding: 5px;
+}
+
+.new .price p {
+  float: left;
+}
+
+.new .small {
+  color: rgba(68, 68, 68, 0.616);
+  float: right;
+}
+
+.new .small h3 {
+  font-size: 14px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.new .small2 {
+  color: #533d55;
+  float: left;
+  width: 55%;
+}
+
+.all-img {
+  position: relative;
+}
+
+.card-img-top {
+  border-radius: 0 0 15px 15px;
+}
+
+.card-logo {
+  position: absolute;
+  top: 0;
+  width: 20%;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.card-logo img {
+  width: 80%;
+  border-radius: 50px;
+}
+
+.time {
+  width: 50%;
+  padding: 10px 15px;
+  height: 50px;
+  background-color: rgba(68, 68, 68, 0.5);
+  border-radius: 0 10px 0 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: inline-block;
+}
+
+.time #days,
+.time #seconds,
+.time #minutes,
+.time #hours {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  float: left;
+}
+
+#clockdiv {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #ff8a80;
+  display: inline-block;
+}
+
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #f44336;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.time-me {
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+  font-size: 40px;
+  width: 100%;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'head';
+  src: url("../IRANSans4/IRANSans4/WebFonts/fonts/woff2/IRANSansWeb_Bold.woff2"); }
+@font-face {
+  font-family: 'p1';
+  src: url("../IRANSans4/IRANSans4/WebFonts/fonts/woff2/IRANSansWeb_Light.woff2"); }
+@font-face {
+  font-family: 'p2';
+  src: url("../IRANSans4/IRANSans4/WebFonts/fonts/woff2/IRANSansWeb_Medium.woff2"); }
+html {
+  direction: rtl; }
+
+body {
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "head";
+  font-size: 20px;
+  color: #673918;
+  line-height: 1.2; }
+
+p {
+  font-family: "p1";
+  font-size: 14px;
+  line-height: 1.7; }
+
+#golmas ul {
+  text-align: right;
+  margin: 0 auto; }
+  #golmas ul li {
+    margin-right: 35px;
+    margin-top: 20px;
+    text-align: center; }
+    #golmas ul li a {
+      color: #666;
+      font-family: "p2"; }
+
+.bg-light {
+  background-color: #FEFAF7 !important; }
+
+/*-----------------------meain-section---------------------------------------------*/
+#mean-sextion {
+  width: 100%;
+  background-color: blue;
+  float: right;
+  position: relative; }
+  #mean-sextion .myslide {
+    width: 30%;
+    margin: 30px auto; }
+  #mean-sextion .myslide img {
+    width: 100%; }
+  #mean-sextion .unimg {
+    width: 100%;
+    background-color: blueviolet;
+    float: left;
+    position: relative;
+    top: -50px; }
+    #mean-sextion .unimg img {
+      width: 100%;
+      opacity: 0.8; }
+  #mean-sextion h2 {
+    position: absolute;
+    top: 120px;
+    right: 41%;
+    font-size: 39px; }
+
+.text-head {
+  width: 100%;
+  background-color: red; }
+
+/*-----------------------gallery-icon-section---------------------------------------------*/
+.gallery-icon {
+  width: 100%;
+  float: right;
+  background-color: red;
+  height: 100px; }
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+  #mean-sextion .unimg {
+    top: 90px; }
+  #mean-sextion h2 {
+    top: 25px;
+    font-size: 15px;
+    right: 35%; } }
+
+/*# sourceMappingURL=style.css.map */
